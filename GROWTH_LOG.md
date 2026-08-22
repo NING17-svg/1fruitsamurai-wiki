@@ -6,6 +6,14 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-08-22 - Adsterra six units populated
+
+- Task: Populate the fixed Adsterra Native Banner, 728x90, 468x60, 320x50, 160x600, and Smartlink values in `src/data/ads.ts` per `adsterra-integrator` contract.
+- Files changed: `src/data/ads.ts`.
+- URLs affected: None; ad units render in existing fixed module slots already declared by the builder.
+- Ad baseline: All six placeholder values replaced with the live Adsterra codes for `1fruitsamurai.wiki`; no new ad components introduced.
+- Verification: `npm run verify` (typecheck + validators) after the edit.
+
 ### 2026-08-12 - Static discovery and review freshness baseline added
 
 - Task: Add locale-aware static search, automatic recent updates, visible review dates, and browser metadata/security defaults to the shared template.
