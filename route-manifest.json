@@ -1,0 +1,142 @@
+[
+  {
+    "id": "home-en-US",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "fixed-auras-tier-list-en-US",
+    "translationKey": "auras-tier-list",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/auras-tier-list",
+    "alternates": {
+      "en-US": "/auras-tier-list"
+    }
+  },
+  {
+    "id": "fixed-beginner-tips-en-US",
+    "translationKey": "beginner-tips",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/beginner-tips",
+    "alternates": {
+      "en-US": "/beginner-tips"
+    }
+  },
+  {
+    "id": "fixed-blades-tier-list-en-US",
+    "translationKey": "blades-tier-list",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/blades-tier-list",
+    "alternates": {
+      "en-US": "/blades-tier-list"
+    }
+  },
+  {
+    "id": "fixed-codes-en-US",
+    "translationKey": "codes",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/codes",
+    "alternates": {
+      "en-US": "/codes"
+    }
+  },
+  {
+    "id": "fixed-creator-group-rewards-en-US",
+    "translationKey": "creator-group-rewards",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/creator-group",
+    "alternates": {
+      "en-US": "/creator-group"
+    }
+  },
+  {
+    "id": "fixed-fruit-boss-guide-en-US",
+    "translationKey": "fruit-boss-guide",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/fruit-boss-guide",
+    "alternates": {
+      "en-US": "/fruit-boss-guide"
+    }
+  },
+  {
+    "id": "fixed-how-to-play-en-US",
+    "translationKey": "how-to-play",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/how-to-play",
+    "alternates": {
+      "en-US": "/how-to-play"
+    }
+  },
+  {
+    "id": "fixed-lucky-roll-guide-en-US",
+    "translationKey": "lucky-roll-guide",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/lucky-roll-guide",
+    "alternates": {
+      "en-US": "/lucky-roll-guide"
+    }
+  },
+  {
+    "id": "fixed-official-links-status-en-US",
+    "translationKey": "official-links-status",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/official-links",
+    "alternates": {
+      "en-US": "/official-links"
+    }
+  },
+  {
+    "id": "fixed-rebirth-guide-en-US",
+    "translationKey": "rebirth-guide",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/rebirth-guide",
+    "alternates": {
+      "en-US": "/rebirth-guide"
+    }
+  },
+  {
+    "id": "fixed-scarecrow-farm-guide-en-US",
+    "translationKey": "scarecrow-farm-guide",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/scarecrow-farm-guide",
+    "alternates": {
+      "en-US": "/scarecrow-farm-guide"
+    }
+  },
+  {
+    "id": "fixed-updates-patch-notes-en-US",
+    "translationKey": "updates-patch-notes",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/updates",
+    "alternates": {
+      "en-US": "/updates"
+    }
+  },
+  {
+    "id": "fixed-vs-other-fruit-samurai-en-US",
+    "translationKey": "vs-other-fruit-samurai",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/vs-other-fruit-samurai",
+    "alternates": {
+      "en-US": "/vs-other-fruit-samurai"
+    }
+  }
+]

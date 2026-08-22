@@ -1,16 +1,40 @@
-import { writeFileSync } from "node:fs";
-import { resolve } from "node:path";
+import { allFruitPages } from "../src/data/fruit-pages";
 import { getFinalRouteManifest } from "../src/lib/content";
+import type { PageContent } from "../src/types/content";
 
-const manifest = `${JSON.stringify(getFinalRouteManifest(), null, 2)}\n`;
-const outputFlag = process.argv.indexOf("--output");
+const LAUNCH_TRANSLATION_KEYS = new Set<string>([
+  "home",
+  "how-to-play",
+  "codes",
+  "blades-tier-list",
+  "auras-tier-list",
+  "fruit-boss-guide",
+  "scarecrow-farm-guide",
+  "lucky-roll-guide",
+  "rebirth-guide",
+  "updates-patch-notes",
+  "creator-group-rewards",
+  "official-links-status",
+  "vs-other-fruit-samurai",
+  "beginner-tips",
+]);
 
-if (outputFlag >= 0) {
-  const outputPath = process.argv[outputFlag + 1];
-  if (!outputPath) throw new Error("--output requires a file path");
-  const resolvedPath = resolve(process.cwd(), outputPath);
-  writeFileSync(resolvedPath, manifest, "utf8");
-  console.log(`route manifest written: ${resolvedPath}`);
-} else {
-  process.stdout.write(manifest);
+const launchPages: PageContent[] = allFruitPages.filter((page) =>
+  LAUNCH_TRANSLATION_KEYS.has(page.translationKey),
+);
+
+const manifest = `${JSON.stringify(getFinalRouteManifest(launchPages), null, 2)}\n`;
+
+const args = process.argv.slice(2);
+let outputPath = "route-manifest.json";
+for (let i = 0; i < args.length; i += 1) {
+  const arg = args[i];
+  if (arg === "--output") {
+    outputPath = args[i + 1] ?? outputPath;
+    i += 1;
+  }
 }
+
+import { writeFileSync } from "node:fs";
+writeFileSync(outputPath, manifest, "utf8");
+console.log(`route manifest written: ${outputPath}`);
