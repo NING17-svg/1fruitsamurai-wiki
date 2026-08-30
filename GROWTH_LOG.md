@@ -6,6 +6,14 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-08-30 - Adsterra six unit values re-encoded as string literals
+
+- Task: Re-collect the six live Adsterra unit codes for `1fruitsamurai.wiki` and store them in `src/data/ads.ts` as plain double-quoted string literals instead of template literals, per `adsterra-integrator` contract.
+- Files changed: `src/data/ads.ts`.
+- URLs affected: None; ad units render in the existing fixed module slots, and no ad component was added, moved, or removed.
+- Ad baseline: All six values (Native Banner, 728x90, 468x60, 320x50, 160x600, Smartlink) are identical to the codes collected from the Adsterra dashboard; only the literal encoding changed.
+- Verification: `npm run verify`.
+
 ### 2026-08-25 - Static Assets deployment migration
 
 - Task: Replace the OpenNext Worker runtime with Next.js static export served directly by Cloudflare Workers Static Assets.
