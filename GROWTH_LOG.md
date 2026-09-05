@@ -6,6 +6,15 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-01 - UPD1 active code surfaced on /codes, /beginner-tips, /creator-group
+
+- Task: Update the wiki to surface UPD1 as the only currently active code on the official Roblox description, cite universe 10424311938 as the source, retain the two-step redemption (join creator group 918672217 then paste in the main menu codes text box with a refresh retry), and refresh review dates to 2026-09-01.
+- Files changed: `src/data/fruit-pages.ts`, `src/data/faq.ts`.
+- URLs affected: `/codes`, `/beginner-tips`, `/creator-group`.
+- Code baseline: UPD1 is the only currently active code as of 2026-09-01; the codes-table row "A specific active code string is published" moved from "Not announced" to "Confirmed"; the two-step redemption (group join then main-menu paste with refresh retry) is preserved unchanged.
+- Review dates: `lastReviewed` on `/codes`, `/creator-group`, and `/beginner-tips` refreshed from 2026-08-22 to 2026-09-01.
+- Verification: `npm run verify`.
+
 ### 2026-08-30 - Adsterra six unit values re-encoded as string literals
 
 - Task: Re-collect the six live Adsterra unit codes for `1fruitsamurai.wiki` and store them in `src/data/ads.ts` as plain double-quoted string literals instead of template literals, per `adsterra-integrator` contract.

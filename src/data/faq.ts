@@ -90,7 +90,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-codes-active",
     question: "Are there any active +1 Fruit Samurai codes right now?",
     answer:
-      "No individual active code string is confirmed by the official description or the verified creator group as of 2026-08-22. The official description confirms that codes exist for universe 10424311938, but does not publish a string.",
+      "Yes. UPD1 is the only currently active +1 Fruit Samurai code as of 2026-09-01, published on the official Roblox game description for universe 10424311938. The official description confirms that codes exist and ties them to joining the verified creator group.",
     pageIds: ["fixed-codes-en-US"],
     category: "release",
     schemaEligible: true,
@@ -120,7 +120,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-codes-expired",
     question: "Do expired +1 Fruit Samurai codes get a separate list?",
     answer:
-      "Yes, but the expired list is empty as of 2026-08-22 because no individual active or expired code string has been published.",
+      "Yes, but the expired list is empty as of 2026-09-01 because UPD1 is the only code currently published on the official Roblox description; nothing has been retired yet.",
     pageIds: ["fixed-codes-en-US"],
     category: "release",
     schemaEligible: true,

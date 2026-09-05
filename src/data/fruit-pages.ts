@@ -227,25 +227,25 @@ export const codesPage: PageContent = {
   h1: "+1 Fruit Samurai codes: active list and how to redeem",
   seoTitle: "+1 Fruit Samurai codes: active list & redemption guide",
   metaDescription:
-    "Looking for +1 Fruit Samurai codes? Verified group-join redemption rule per the official Roblox description, with YouTube creator coverage and update notes.",
+    "Looking for +1 Fruit Samurai codes? UPD1 is the only currently active code on the official Roblox description, with verified group-join redemption steps.",
   summary:
-    "Surface every currently active +1 Fruit Samurai Roblox secret code, the reward tier for each code, and the verified group-join redemption method, with a dated status note when no individual code string has been published.",
+    "Surface the currently active +1 Fruit Samurai Roblox secret code (UPD1), the verified group-join redemption method, and a dated status note when new codes replace it.",
   hero: {
     eyebrow: "Codes & rewards",
     subtitle:
-      "Active +1 Fruit Samurai code status, group-join redemption rule, and where new codes will be announced first.",
+      "UPD1 is the only currently active +1 Fruit Samurai code per the official Roblox description, with the verified group-join redemption rule.",
     ctas: [
       { label: "Creator group", href: "/creator-group" },
       { label: "Update log", href: "/updates" },
     ],
   },
   quickAnswer:
-    "+1 Fruit Samurai codes are secret redeemables the official Roblox description for universe 10424311938 confirms exist and ties to joining the verified creator group 'Can't Hold It Anymore!'. As of 2026-08-22, no individual code string has been published in the official description or confirmed by a creator-group post.",
+    "+1 Fruit Samurai codes are secret redeemables the official Roblox description for universe 10424311938 confirms exist and ties to joining the verified creator group 'Can't Hold It Anymore!'. As of 2026-09-01, the only currently active code is UPD1, published on the official Roblox game description.",
   keyFacts: [
     { label: "Codes exist", value: "Confirmed (official description)" },
-    { label: "Active code string", value: "Not announced as of 2026-08-22" },
+    { label: "Active code string", value: "UPD1" },
     { label: "Group join required", value: "Yes (group 918672217)" },
-    { label: "First-announce channel", value: "Verified creator group wall" },
+    { label: "First-announce channel", value: "Official Roblox game description" },
   ],
   modules: [
     {
@@ -255,12 +255,12 @@ export const codesPage: PageContent = {
       columns: [
         { key: "claim", label: "Claim" },
         { key: "source", label: "Source" },
-        { key: "status", label: "Status as of 2026-08-22" },
+        { key: "status", label: "Status as of 2026-09-01" },
       ],
       rows: [
         { claim: "Secret codes exist for +1 Fruit Samurai", source: "Official Roblox game page (universe 10424311938)", status: "Confirmed" },
         { claim: "Codes require joining the verified creator group", source: "Official Roblox game page and verified group page", status: "Confirmed" },
-        { claim: "A specific active code string is published", source: "Official description or verified creator group post", status: "Not announced" },
+        { claim: "Active code string UPD1 is currently published", source: "Official Roblox game description (universe 10424311938)", status: "Confirmed" },
         { claim: "Group-only codes become redeemable after join", source: "YouTube creator coverage (community/video)", status: "Confirmed" },
       ],
     },
@@ -275,7 +275,7 @@ export const codesPage: PageContent = {
         },
         {
           title: "Redeem in the codes text box",
-          body: "Open +1 Fruit Samurai on Roblox, find the codes text box in the main menu, and paste any active code string. Refresh the game once if the first paste fails.",
+          body: "Open +1 Fruit Samurai on Roblox, find the codes text box in the main menu, and paste the active code string (UPD1). Refresh the game once if the first paste fails.",
         },
       ],
     },
@@ -283,14 +283,14 @@ export const codesPage: PageContent = {
       id: "announce-channels",
       type: "prose",
       heading: "Where new +1 Fruit Samurai codes will be announced",
-      body: "Codes will be announced first in three places: the verified 'Can't Hold It Anymore!' creator group wall (highest authority), the official Roblox game page description, and the wiki update log. Community video coverage is useful for demand confirmation but is never used as the primary source.",
+      body: "New codes appear first on the official Roblox game description for universe 10424311938, then mirror on the verified 'Can't Hold It Anymore!' creator group wall and the wiki update log. Community video coverage is useful for demand confirmation but is never used as the primary source.",
     },
   ],
   faqIds: ["faq-codes-active", "faq-codes-group", "faq-codes-channel", "faq-codes-expired"],
   relatedPageIds: ["fixed-creator-group-rewards-en-US", "fixed-updates-patch-notes-en-US", "home-en-US"],
   schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
   sourceStatus: "official",
-  lastReviewed: "2026-08-22",
+  lastReviewed: "2026-09-01",
 };
 
 export const bladesTierListPage: PageContent = {
@@ -876,12 +876,12 @@ export const creatorGroupRewardsPage: PageContent = {
     ],
   },
   quickAnswer:
-    "The +1 Fruit Samurai creator group is the verified Roblox community called 'Can't Hold It Anymore!' (id 918672217). The official game description states that players must Like the game and Join the group for free exclusive rewards and secret codes. Specific reward contents are not announced as of 2026-08-22.",
+    "The +1 Fruit Samurai creator group is the verified Roblox community called 'Can't Hold It Anymore!' (id 918672217). The official game description states that players must Like the game and Join the group for free exclusive rewards and secret codes. As of 2026-09-01, the only currently active code tied to this group join is UPD1, published on the official Roblox game description.",
   keyFacts: [
     { label: "Group name", value: "Can't Hold It Anymore!" },
     { label: "Group id", value: "918672217" },
     { label: "Claim step", value: "Like + Join" },
-    { label: "Reward contents", value: "Not announced as of 2026-08-22" },
+    { label: "Active code", value: "UPD1" },
   ],
   modules: [
     {
@@ -894,7 +894,7 @@ export const creatorGroupRewardsPage: PageContent = {
       id: "what-rewards-unlock",
       type: "prose",
       heading: "What the rewards actually unlock",
-      body: "Joining the creator group gates two things named in the official description: 'free exclusive rewards' (the in-game reward tier when your account has the group membership flag set) and 'secret codes' (redeemable code strings shared with members). Specific reward contents are not announced as of 2026-08-22.",
+      body: "Joining the creator group gates two things named in the official description: 'free exclusive rewards' (the in-game reward tier when your account has the group membership flag set) and 'secret codes' (redeemable code strings shared with members). As of 2026-09-01 the only currently active code is UPD1, published on the official Roblox game description for universe 10424311938.",
     },
     {
       id: "like-join",
@@ -926,7 +926,7 @@ export const creatorGroupRewardsPage: PageContent = {
   relatedPageIds: ["fixed-codes-en-US", "fixed-official-links-status-en-US", "home-en-US"],
   schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
   sourceStatus: "official",
-  lastReviewed: "2026-08-22",
+  lastReviewed: "2026-09-01",
 };
 
 export const officialLinksStatusPage: PageContent = {
@@ -1105,10 +1105,10 @@ export const beginnerTipsPage: PageContent = {
     ],
   },
   quickAnswer:
-    "Beginner tips focus on the official early-game loop: join the verified creator group for codes, farm scarecrows for stats, chase blades and Auras from confirmed systems, and avoid committing to a Rebirth before your loadout and farming stats are stable.",
+    "Beginner tips focus on the official early-game loop: join the verified creator group for codes, redeem the currently active code (UPD1 as of 2026-09-01), farm scarecrows for stats, chase blades and Auras from confirmed systems, and avoid committing to a Rebirth before your loadout and farming stats are stable.",
   keyFacts: [
     { label: "First step", value: "Join verified creator group" },
-    { label: "First 15-30 min", value: "Scarecrow farm loop" },
+    { label: "Active code", value: "UPD1 (2026-09-01)" },
     { label: "Anti-pattern", value: "Premature Rebirth" },
     { label: "Best resource", value: "Verified Blade + Aura loadout" },
   ],
@@ -1123,8 +1123,8 @@ export const beginnerTipsPage: PageContent = {
           body: "Join 'Can't Hold It Anymore!' (id 918672217) on your first session and Like the game from the Roblox game page. This unlocks free exclusive rewards and secret codes.",
         },
         {
-          title: "Redeem any active code before your first farming run",
-          body: "Code rewards are typically granted on first server entry, so you start with a larger stat base if you redeem before you teleport to the scarecrow area.",
+          title: "Redeem the active code UPD1 before your first farming run",
+          body: "UPD1 is the only currently active +1 Fruit Samurai code as of 2026-09-01, published on the official Roblox game description. Code rewards are typically granted on first server entry, so you start with a larger stat base if you redeem before you teleport to the scarecrow area.",
         },
         {
           title: "Spend your first 15-30 minutes on the scarecrow farm loop",
@@ -1166,7 +1166,7 @@ export const beginnerTipsPage: PageContent = {
   relatedPageIds: ["fixed-how-to-play-en-US", "fixed-codes-en-US", "fixed-scarecrow-farm-guide-en-US", "fixed-blades-tier-list-en-US", "fixed-auras-tier-list-en-US", "fixed-fruit-boss-guide-en-US", "fixed-rebirth-guide-en-US"],
   schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
   sourceStatus: "official",
-  lastReviewed: "2026-08-22",
+  lastReviewed: "2026-09-01",
 };
 
 export const guidesFixturePage: PageContent = {
