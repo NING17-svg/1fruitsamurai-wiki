@@ -6,6 +6,14 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-16 - /updates refreshed to 2026-09-11 build and [UPD1] title prefix
+
+- Task: Refresh the existing /updates page so the most-recent-universe-update row reflects the 2026-09-11 Roblox Games API 'updated' field, add a short note explaining the [UPD1] live game title prefix, and update the page's last-reviewed stamp to 2026-09-16.
+- Files changed: `src/data/fruit-pages.ts`, `src/data/faq.ts`.
+- URLs affected: `/updates` (and the four update-log FAQ entries it renders: `faq-latest-update`, `faq-update-changes`, `faq-update-cadence`, `faq-patch-notes-where`).
+- Update baseline: timeline now lists 2026-07-01 (creation), 2026-08-21 (previous update), 2026-09-11 (most recent update), 2026-09-11 ([UPD1] live title prefix); keyFacts refreshed to "Latest updated: 2026-09-11" and "Per-build changelog: Not announced as of 2026-09-16"; no other pages or system facts were touched.
+- Verification: `npm run verify`.
+
 ### 2026-09-01 - UPD1 active code surfaced on /codes, /beginner-tips, /creator-group
 
 - Task: Update the wiki to surface UPD1 as the only currently active code on the official Roblox description, cite universe 10424311938 as the source, retain the two-step redemption (join creator group 918672217 then paste in the main menu codes text box with a refresh retry), and refresh review dates to 2026-09-01.

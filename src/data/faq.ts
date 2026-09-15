@@ -36,7 +36,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-update-cadence",
     question: "How often does the +1 Fruit Samurai wiki update?",
     answer:
-      "The wiki mirrors the Roblox Games API 'updated' field for universe 10424311938 and the RoMonitor last-release timestamp for cross-checking. In-game patch details stay labelled as not announced as of 2026-08-22 until the official description or the verified creator group confirms them.",
+      "The wiki mirrors the Roblox Games API 'updated' field for universe 10424311938 and the RoMonitor last-release timestamp for cross-checking. In-game patch details stay labelled as not announced as of 2026-09-16 until the official description or the verified creator group confirms them, while the [UPD#] title prefix on the live game URL is treated as the first-party signal that an applied build is live.",
     pageIds: ["home-en-US", "fixed-updates-patch-notes-en-US"],
     category: "site",
     schemaEligible: true,
@@ -384,7 +384,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-latest-update",
     question: "When was the latest +1 Fruit Samurai update?",
     answer:
-      "The most recent +1 Fruit Samurai update is dated 2026-08-21 on the Roblox Games API 'updated' field for Universe 10424311938.",
+      "The most recent +1 Fruit Samurai update is dated 2026-09-11 on the Roblox Games API 'updated' field for Universe 10424311938, and the live game URL now carries the [UPD1] title prefix.",
     pageIds: ["fixed-updates-patch-notes-en-US"],
     category: "release",
     schemaEligible: true,
@@ -394,7 +394,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-update-changes",
     question: "What changed in the latest +1 Fruit Samurai update?",
     answer:
-      "Per-build patch details are not announced as of 2026-08-22. The verified creator group has not posted a changelog tied to the 2026-08-21 build at the time of research.",
+      "Per-build patch details are not announced as of 2026-09-16. The verified creator group has not posted a changelog tied to the 2026-09-11 build at the time of research; the [UPD1] title prefix is the only player-visible confirmation so far.",
     pageIds: ["fixed-updates-patch-notes-en-US"],
     category: "release",
     schemaEligible: true,
@@ -404,7 +404,7 @@ export const faqItems: FAQItem[] = [
     id: "faq-patch-notes-where",
     question: "Where can I find +1 Fruit Samurai patch notes?",
     answer:
-      "The official description and the verified creator group page are the two public channels tied to the game. A future in-game news tab or per-build changelog would surface the same content.",
+      "The official description and the verified creator group page are the two public channels tied to the game. The [UPD#] prefix on the live game URL is the quickest signal that a new build is live; a future in-game news tab or per-build changelog would surface the same content.",
     pageIds: ["fixed-updates-patch-notes-en-US"],
     category: "release",
     schemaEligible: true,

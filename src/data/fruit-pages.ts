@@ -793,7 +793,7 @@ export const updatesPatchNotesPage: PageContent = {
   h1: "+1 Fruit Samurai update log: latest patch and patch notes",
   seoTitle: "+1 Fruit Samurai update log: latest patch and patch notes",
   metaDescription:
-    "+1 Fruit Samurai update log as of 2026-08-22, with the latest Roblox API and RoMonitor timestamps, an update timeline, and per-system change status.",
+    "+1 Fruit Samurai update log as of 2026-09-16, with the latest Roblox API and RoMonitor timestamps, an update timeline, and a note on the [UPD1] title prefix.",
   summary:
     "Track the latest +1 Fruit Samurai Roblox update log and patch notes, including blade, aura, boss, and code changes with dated sources.",
   hero: {
@@ -806,11 +806,12 @@ export const updatesPatchNotesPage: PageContent = {
     ],
   },
   quickAnswer:
-    "The most recent +1 Fruit Samurai update landed on 2026-08-21 according to the Roblox Games API 'updated' field for Universe 10424311938, with the RoMonitor acquisition page confirming the same release window. In-game patch details for that build are not announced as of 2026-08-22.",
+    "The most recent +1 Fruit Samurai update landed on 2026-09-11 according to the Roblox Games API 'updated' field for Universe 10424311938, and the live game URL now carries the [UPD1] title prefix. In-game patch details for that build are not announced as of 2026-09-16.",
   keyFacts: [
     { label: "Universe created", value: "2026-07-01" },
-    { label: "Latest updated", value: "2026-08-21" },
-    { label: "Per-build changelog", value: "Not announced as of 2026-08-22" },
+    { label: "Latest updated", value: "2026-09-11" },
+    { label: "Live title prefix", value: "[UPD1]" },
+    { label: "Per-build changelog", value: "Not announced as of 2026-09-16" },
     { label: "Release cadence", value: "Not announced" },
   ],
   modules: [
@@ -826,9 +827,17 @@ export const updatesPatchNotesPage: PageContent = {
       ],
       rows: [
         { date: "2026-07-01", marker: "Universe creation", source: "Roblox Games API 'created' field", confirmed: "Universe first published on this date" },
-        { date: "2026-08-21", marker: "Most recent universe update", source: "Roblox Games API 'updated' field", confirmed: "Universe was last updated on this date" },
-        { date: "2026-08-21", marker: "Last release observed", source: "RoMonitor acquisition page for place 121143259662420", confirmed: "Same release window reflected in the RoMonitor tracker, attributed for cross-checking only" },
+        { date: "2026-08-21", marker: "Previous universe update", source: "Roblox Games API 'updated' field", confirmed: "Universe was updated on this date before the 2026-09-11 build" },
+        { date: "2026-09-11", marker: "Most recent universe update", source: "Roblox Games API 'updated' field", confirmed: "Universe was last updated on this date" },
+        { date: "2026-09-11", marker: "Live title prefix [UPD1]", source: "Live Roblox game URL title (place 121143259662420)", confirmed: "Live game title carries the [UPD1] prefix in the URL, matching the same build window" },
       ],
+    },
+    {
+      id: "upd1-prefix",
+      type: "callout",
+      tone: "confirmed",
+      title: "What the [UPD1] title prefix means",
+      body: "Roblox game URLs include a bracketed prefix in the title when the creator has applied an update. The [UPD1] prefix on the live +1 Fruit Samurai game URL is the player-visible confirmation that the 2026-09-11 Roblox-side update is live. The wiki treats the API timestamp and the [UPD1] prefix as the same event; no per-system patch notes have been published first-party yet.",
     },
     {
       id: "not-announced",
@@ -841,14 +850,14 @@ export const updatesPatchNotesPage: PageContent = {
       id: "next-update",
       type: "prose",
       heading: "Where the next update will be confirmed first",
-      body: "The Roblox game page description carries the official copy and is where a permanent description update would land. The verified creator group 'Can't Hold It Anymore!' page is where the creator will most likely post the per-build changelog. The in-game news tab is the runtime surface that players see first.",
+      body: "The Roblox game page description carries the official copy and is where a permanent description update would land. The verified creator group 'Can't Hold It Anymore!' page is where the creator will most likely post the per-build changelog. The in-game news tab is the runtime surface that players see first, and the [UPD#] prefix on the live game URL is the quickest signal that a new build is live.",
     },
   ],
   faqIds: ["faq-latest-update", "faq-update-changes", "faq-update-cadence", "faq-patch-notes-where"],
   relatedPageIds: ["fixed-codes-en-US", "fixed-blades-tier-list-en-US", "fixed-auras-tier-list-en-US", "fixed-fruit-boss-guide-en-US"],
   schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
   sourceStatus: "official",
-  lastReviewed: "2026-08-22",
+  lastReviewed: "2026-09-16",
 };
 
 export const creatorGroupRewardsPage: PageContent = {
